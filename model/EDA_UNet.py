@@ -317,7 +317,7 @@ class m(nn.Module):
         x = self.fc(x)
         return x
 
-class resunetplusplus(nn.Module):
+class EDA_UNet(nn.Module):
     def __init__(self):
         super().__init__()
         nb_filter = [16, 32, 64, 128, 256]
